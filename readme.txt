@@ -30,7 +30,7 @@ PHP 5.2 lost support from the PHP project itself more than three years ago. You'
 
 == Features ==
 
-* Converts all posts, and pages, rom WordPress for use in Lektor
+* Converts all posts, and pages, from WordPress for use in Lektor
 * Export what your users see, not what the database stores (runs post content through `the_content` filter prior to export, allowing third-party plugins to modify the output)
 * Converts all `post_content` to Markdown Extra (using Markdownify)
 * Outputs Lektor compatible file within exports/ folder within the plugin folder
